@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Dapp</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.4.umd.min.js"
+        type="application/javascript"></script>
+    <script src = "script.js"></script>
+
+</head>
+<body>
+    <div>
+        <h1> Rock Paper Scissors Dapp</h1>
+        <p> Add amount in BNB to play</p>
+        <input type="number" min = "0" id = "amountInEth">
+        <button onclick="game(0)">Rock</button>
+        <button onclick="game(1)">Paper</button>
+        <button onclick="game(2)">Scissors</button>
+
+        
+        <p><b>Result: function in development</b> <span id="resultLog"></p>
+
+    </div>
+    
+</body>
+</html>
